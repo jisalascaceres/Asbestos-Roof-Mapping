@@ -6,7 +6,7 @@ This repository contains the source code accompanying the paper:
 
 ## Overview
 
-This project provides a Python-based workflow for the detection, mapping, and temporal monitoring of asbestos roofs using satellite imagery. The repository includes the scripts required for data preprocessing, model training, inference, and result generation.
+This project provides a Python-based workflow for the detection, mapping, and temporal monitoring of asbestos roofs using satellite imagery. The repository includes the scripts required for data preprocessing, model training, inference, and result generation. The Preprocessing step indicated in the original work goes from notebook 0 to 4. The other steps correspond to their homonimous notebooks.
 
 For clarity and ease of understanding, the code used in the paper is organized into Jupyter notebooks, which can be found in the **Notebooks** directory.
 
@@ -35,6 +35,16 @@ The required Python packages are listed below and are also provided in the `requ
 - scikit-learn
 - scikit-image
 
+## Usage
+
+The workflow is organized as a series of Jupyter notebooks.
+
+- **Preprocessing:** Notebooks **0–4**.
+- **Training:**  notebook **5 "Classification.ipynb"**
+- **Postprocessing:** notebook **6 "PostProcessing.ipynb"**
+- **Evaluation:** notebook **7 "AccuracyAssessment.ipynb"**
+
+The notebooks should be executed in this order to reproduce the workflow presented in the paper.
 
 ## Data
 
